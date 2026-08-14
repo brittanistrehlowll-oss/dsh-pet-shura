@@ -1,7 +1,7 @@
 {
   "name": "dsh-pet-shura",
-  "description": "修罗小脑斧 — animated desktop pet for the dsh web surface: full 11-row v2 spritesheet animation, drag & drop, look-at-mouse, random idle actions, and a right-click settings panel.",
-  "version": "1.0.0",
+  "description": "修罗小脑斧 — animated desktop pet for the dsh web surface: v2 spritesheet animation, drag & drop, look-at-mouse, settings panel, and a speech bubble that reports live agent work progress (tool calls, errors, approvals) over SSE.",
+  "version": "1.1.0",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
