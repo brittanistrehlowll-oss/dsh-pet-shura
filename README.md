@@ -37,7 +37,7 @@ dsh plugin --profile web remove dsh-pet-shura
 | Drag & drop | Position remembered in `localStorage['dsh.pet.pos']` |
 | Thread status card | Double-click the pet (or right-click → 线程状态) shows a token-styled card listing every busy thread (session) and what tool it is running, fed by `GET /pet/status` |
 | Status symbols | Design-review extras: floating `?` while thinking, red shaking `!` on error, `✓` flash on success, `Zzz` rising while idle-waiting |
-| Tool badge | While a tool runs, a cyan tech badge shows the current tool name (the plugin-ring concept, degraded to a single badge) |
+| Plugin ring | A semi-circular tool ring around the pet (up to 6 nodes, one per busy thread) fed by `GET /pet/status`: each node shows a tool-type icon, lights up with stagger while threads are busy, and the ring fades out when idle — the design review's plugin-ring concept |
 | Core glow | An emerald radial glow behind the pet brightens while working — the "energy core, state visible" idea from the design review |
 | Random actions | Waves / jumps / tumbles / paces every 7–16 s; waiting pose after 22 s idle |
 | Settings panel | Right-click the pet → ⚙️ 设置: size (60/75/100%), random actions, look-at-mouse, reset position — persisted in `localStorage['dsh.pet.settings']` |
