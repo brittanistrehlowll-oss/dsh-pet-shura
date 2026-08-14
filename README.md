@@ -29,7 +29,9 @@ dsh plugin --profile web remove dsh-pet-shura
 
 | Feature | Detail |
 |---|---|
-| Speech bubble | Reports live work progress over SSE (`/pet/events`): "正在跑终端命令…", "✅ 写文件完成", "⚠️ …出错了", "需要你拍板", "回答完毕" — Codex-style bubble above the pet |
+| Speech bubble | Codex-style bubble above the pet, fed over SSE (`/pet/events`) |
+| Thread overview | Tracks every busy thread (session): "🔧 3 个线程在忙：主线程在跑终端命令，子线程 #1 在写文件" — refreshed every 15 s, only when the picture changes |
+| Line bank | Varied Chinese lines per event kind (user/work/done/error/ask/reply/turn-end/workflow/goal) plus idle self-talk every 45–90 s — the pet rarely repeats itself |
 | Full animation | All 11 v2 rows: idle breathing, running left/right, waving, jumping, failed, waiting, task-running, review, plus 16-direction look loop |
 | Look-at-mouse | Tracks your cursor with 16 direction frames (240px radius) |
 | Drag & drop | Position remembered in `localStorage['dsh.pet.pos']` |
