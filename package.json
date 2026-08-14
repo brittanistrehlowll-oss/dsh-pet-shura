@@ -1,7 +1,7 @@
 {
   "name": "dsh-pet-shura",
-  "description": "修罗小脑斧 — animated desktop pet for the dsh web surface: v2 spritesheet animation, drag & drop, look-at-mouse, settings panel, and a speech bubble reporting live agent work progress. Bubble carries an engineer-toned, concise line bank and a wide flat notice-bar look aligned with the DSH quota card.",
-  "version": "1.3.0",
+  "description": "修罗小脑斧 — animated desktop pet for the dsh web surface: v2 spritesheet animation, drag & drop, look-at-mouse, settings panel, speech bubble reporting live work, and a thread-status card (double-click or right-click → 线程状态) listing every busy session's current tool. Engineer-toned concise line bank; wide flat notice-bar bubble aligned with the DSH quota card.",
+  "version": "1.4.0",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

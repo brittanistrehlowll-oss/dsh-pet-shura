@@ -35,9 +35,10 @@ dsh plugin --profile web remove dsh-pet-shura
 | Full animation | All 11 v2 rows: idle breathing, running left/right, waving, jumping, failed, waiting, task-running, review, plus 16-direction look loop |
 | Look-at-mouse | Tracks your cursor with 16 direction frames (240px radius) |
 | Drag & drop | Position remembered in `localStorage['dsh.pet.pos']` |
+| Thread status card | Double-click the pet (or right-click → 线程状态) shows a token-styled card listing every busy thread (session) and what tool it is running, fed by `GET /pet/status` |
 | Random actions | Waves / jumps / tumbles / paces every 7–16 s; waiting pose after 22 s idle |
 | Settings panel | Right-click the pet → ⚙️ 设置: size (60/75/100%), random actions, look-at-mouse, reset position — persisted in `localStorage['dsh.pet.settings']` |
-| Right-click menu | Pet info · rest (hide, recall via 🐯 button) · settings |
+| Right-click menu | Pet info · rest (hide, recall via 🐯 button) · thread status · settings |
 | Safe failure | Script removes itself when the spritesheet is unavailable; never disturbs the host page |
 
 ## Development
