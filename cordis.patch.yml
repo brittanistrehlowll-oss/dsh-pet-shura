@@ -1,0 +1,9 @@
+# dsh-pet-shura bundle patch: mounts the Shura pet into a dsh profile.
+# Applied as a profile layer when this package is installed with
+# `dsh plugin --profile web add "github:brittanistrehlowll-oss/dsh-pet-shura"`.
+
+- insert:
+    - id: pet-shura
+      name: 'dsh-pet-shura'
+      inject:
+        - webServer

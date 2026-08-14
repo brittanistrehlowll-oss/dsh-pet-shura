@@ -1,0 +1,40 @@
+{
+  "name": "dsh-pet-shura",
+  "description": "修罗小脑斧 — animated desktop pet for the dsh web surface: full 11-row v2 spritesheet animation, drag & drop, look-at-mouse, random idle actions, and a right-click settings panel.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/pet-client.js",
+    "assets/spritesheet.webp",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "pet",
+    "desktop-pet",
+    "spritesheet",
+    "hatch-pet"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittanistrehlowll-oss/dsh-pet-shura.git"
+  }
+}
