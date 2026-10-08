@@ -11,6 +11,7 @@
   },
   "files": [
     "lib/index.js",
+    "lib/index.d.ts",
     "lib/pet-client.js",
     "assets/spritesheet.webp",
     "cordis.patch.yml",
