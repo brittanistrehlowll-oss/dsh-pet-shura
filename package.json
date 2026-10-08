@@ -36,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brittanistrehlowll-oss/dsh-pet-shura.git"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
   }
 }
